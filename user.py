@@ -1,5 +1,5 @@
 import boto3
-AWS_PROFILE='premchanderj'
+AWS_PROFILE='default'
 session = boto3.session.Session(profile_name=AWS_PROFILE)
 
 client = boto3.client('iam') 
